@@ -1,4 +1,4 @@
-![.github/logo.svg]
+<img width=200 src="https://raw.githubusercontent.com/daaniiieel/homie/master/.github/logo.svg" alt="logo"/>
 
 # Homie
 
