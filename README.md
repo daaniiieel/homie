@@ -10,5 +10,8 @@ Homie is a simple command line application, that can sync tasks from multiple so
 - Place the `credentials.json` you downloaded in the same folder as `homie.dart` or the executable.
 - Start the executable with `dart homie.dart` or `./homie.exe`. The first time you run the program, it will prompt you with a Google auth dialog in your browser. Follow the steps, then copy-paste the code into the terminal. After this, it'll automatically refresh the token every time, you don't need to do anything.
 
+## Thanks to
+- [@bczsalba](https://github.com/bczsalba): Name suggestion
+
 
 > This is an unofficial client for KRÉTA.
