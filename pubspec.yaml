@@ -1,0 +1,16 @@
+name: homie
+description: "A simple program that synchronizes your Classroom and KRÉTA assignments to Todoist"
+
+dependencies:
+  googleapis: ^0.55.0
+  googleapis_auth: ^0.2.12
+  http: ^0.12.2
+  pubspec_yaml: ^2.0.1
+  universal_html: ^1.2.3
+  uuid: ^2.2.2
+
+dev_dependencies:
+  pedantic: ^1.9.0
+
+environment:
+  sdk: ">=2.8.1 <3.0.0"
