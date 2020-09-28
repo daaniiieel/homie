@@ -65,7 +65,7 @@ Future<Map> addNewTask(String name,
   if (fullDateTime == null) {
     dateTimeString = googleDateToString(date, time);
   } else {
-    dateTimeString = fullDateTime.toIso8601String().split('.')[0];
+    dateTimeString = fullDateTime.toLocal().toIso8601String().split('.')[0];
   }
 
   if (dateTimeString != '') {
@@ -199,7 +199,7 @@ String googleDateToString([Date date, TimeOfDay time]) {
     } else {
       newDate = DateTime(date.year, date.month, date.day);
     }
-    return newDate.toIso8601String().split('.')[0];
+    return newDate.toLocal().toIso8601String().split('.')[0];
   } else {
     return '';
   }
